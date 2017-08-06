@@ -1,73 +1,47 @@
-.header {
-	text-align: center;
-}
-
-html, body {
-	min-height: 100%;
-	color: #4e9990;
-}
-
 @font-face {
-	font-family: "Gandhi Serif";
-	src: url(../gandhi-serif/GandhiSerif-Regular.otf);
-}
-
-body {
-	background: black;
-	background-size: cover;
-	height: 1080px;
-	font-family: 'Gandhi Serif', Georgia, serif;
-	padding: 0;
-	margin: 0;
-}
-
-a {
-	text-decoration: none;
-}
-
-.container {
-	position: relative;
-	min-height: 100%;
-	overflow: hidden;
-}
-
-.jumbotron {
-	height: 750px;
-	background: rgba(100, 100, 100, 0.0);
-}
-
-.nav {
-	width: 100px;
-}
-
-.nav ul {
-	list-style-type: none;
-}
-
-.nav ul li {
-	text-align: center;
-}
-
-.main .col-xs-6 .col-md-4 {
-	display: inline-block;
-}
-
-.footer {
-	position: absolute;
-	height: 30px;
-	width: 100%;
-	right: 0;
-	left: 0;
-	bottom: 0;
-}
-
-.footer p {
-	position: relative;
-	bottom: 8px;
-	color: rgba(159, 234, 220, 0.67);
-	text-align: right;
-	margin-right: 20px;
-	margin-bottom: 10px;
-}
+  font-family: "Gandhi Serif";
+  src: url(../gandhi-serif/GandhiSerif-Regular.otf); }
+html {
+  min-height: 100%; }
+  html body {
+    background: black;
+    background-size: cover;
+    height: 1080px;
+    font-family: 'Gandhi Serif', Georgia, serif;
+    padding: 0;
+    margin: 0; }
+    html body h1, html body h2, html body h3, html body h4, html body h5 {
+      color: #4e9990; }
+    html body .container {
+      position: relative;
+      min-height: 100%;
+      overflow: hidden; }
+      html body .container .header {
+        text-align: center; }
+      html body .container .jumbotron {
+        height: 750px;
+        background: rgba(100, 100, 100, 0); }
+        html body .container .jumbotron .nav {
+          width: 100px; }
+          html body .container .jumbotron .nav ul {
+            list-style-type: none; }
+            html body .container .jumbotron .nav ul li {
+              text-align: center; }
+        html body .container .jumbotron .main .col-xs-6 .col-md-4 {
+          display: inline-block; }
+      html body .container .footer {
+        position: absolute;
+        height: 30px;
+        width: 100%;
+        right: 0;
+        left: 0;
+        bottom: 0; }
+        html body .container .footer p {
+          position: relative;
+          bottom: 8px;
+          color: rgba(159, 234, 220, 0.67);
+          text-align: right;
+          margin-right: 20px;
+          margin-bottom: 10px; }
 
 /*# sourceMappingURL=main.css.map */
