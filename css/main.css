@@ -4,13 +4,19 @@
 
 html, body {
 	min-height: 100%;
+	color: #4e9990;
+}
+
+@font-face {
+	font-family: "Gandhi Serif";
+	src: url(../gandhi-serif/GandhiSerif-Regular.otf);
 }
 
 body {
-	background: url(../img/brighton.jpg) no-repeat;
+	background: black;
 	background-size: cover;
 	height: 1080px;
-	font-family: 'Helvetica', Arial, sans-serif;
+	font-family: 'Gandhi Serif', Georgia, serif;
 	padding: 0;
 	margin: 0;
 }
@@ -40,10 +46,6 @@ a {
 
 .nav ul li {
 	text-align: center;
-}
-
-.main {
-	background: rgba(0,0,0,0);
 }
 
 .main .col-xs-6 .col-md-4 {
