@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog Post 1</title>
+  </head>
+  
+  <body>
+    <h2>Muesli</h2>
+    <img src="http://jahrguhn.files.wordpress.com/2013/12/muesli.jpg" class="size-full" alt="Muesli" />
+    <p>Way too much muesli in the bowl</p>
+  </body>
+</html>
