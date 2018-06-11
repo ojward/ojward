@@ -4,14 +4,14 @@
 html {
   min-height: 100%; }
   html body {
-    background: #c9d1c8;
+    background: #90AFC5;
     background-size: cover;
     height: 1080px;
     font-family: 'Gandhi Serif', Georgia, serif;
     padding: 0;
     margin: 0; }
     html body h1, html body h2, html body h3, html body h4, html body h5 {
-      color: #04202c; }
+      color: #336B87; }
     html body .container {
       position: relative;
       min-height: 100%;
@@ -39,7 +39,7 @@ html {
         html body .container .footer p {
           position: relative;
           bottom: 8px;
-          color: #304040;
+          color: #2A3132;
           text-align: right;
           margin-right: 20px;
           margin-bottom: 10px; }
