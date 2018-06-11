@@ -12,7 +12,7 @@ html {
     margin: 0; }
     html body h1, html body h2, html body h3, html body h4, html body h5 {
       color: #763626; }
-    html body p { color: #021C1E; }
+    html body a { color: #021C1E; }
     html body .container {
       position: relative;
       min-height: 100%;
