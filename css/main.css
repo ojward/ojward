@@ -1,48 +1,22 @@
-@font-face {
-  font-family: "Gandhi Serif";
-  src: url(../gandhi-serif/GandhiSerif-Regular.otf); }
-html {
-  min-height: 100%; }
-  html body {
-    background: #90AFC5;
-    background-size: cover;
-    height: 1080px;
-    font-family: 'Gandhi Serif', Georgia, serif;
-    padding: 0;
-    margin: 0; }
-    html body h1, html body h2, html body h3, html body h4, html body h5 {
-      color: #763626; }
-    html body a { color: #2A3132; }
-    html body .container {
-      position: relative;
-      min-height: 100%;
-      overflow: hidden; }
-      html body .container .header {
-        text-align: center; }
-      html body .container .jumbotron {
-        height: 750px;
-        background: rgba(100, 100, 100, 0); }
-        html body .container .jumbotron .nav {
-          width: 100px; }
-          html body .container .jumbotron .nav ul {
-            list-style-type: none; }
-            html body .container .jumbotron .nav ul li {
-              text-align: center; }
-        html body .container .jumbotron .main .col-xs-6 .col-md-4 {
-          display: inline-block; }
-      html body .container .footer {
-        position: absolute;
-        height: 30px;
-        width: 100%;
-        right: 0;
-        left: 0;
-        bottom: 0; }
-        html body .container .footer p {
-          position: relative;
-          bottom: 8px;
-          color: #021C1E;
-          text-align: right;
-          margin-right: 20px;
-          margin-bottom: 10px; }
+body {
+	/* Old browsers */
+	background: #141E30;
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(-45deg, #35577D, #141E30);
+}
 
-/*# sourceMappingURL=main.css.map */
+h1 {
+  color: #FFF;
+  font-size: 2em;
+  padding-top: 100px;
+  width: 100%;
+}
+
+p {
+  color: AliceBlue;
+  line-height: 1.3em;
+  text-align: left;
+  width: 100%;
+}
